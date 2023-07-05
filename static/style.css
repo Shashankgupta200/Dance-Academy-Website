@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    font-size: 25px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 10px 12px;
+    height: 40px;
+}
+#logo img{
+    height: 50px;
+    filter: invert();
+    margin-right: 10px;
+}
+
+#navbar {
+    background-color: black;
+    font-family: 'Lacquer';
+}
+
+#navbar li {
+    list-style: none;
+    margin: 20px;
+
+}
+
+#navbar li a:hover {
+color: grey;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+}
+
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: center;      here justiy content centre is not used as it will bring the navbar to horizontal centre. */
+}
+
+
+#introSection p{
+    font-size: 2rem;
+}
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    background: center/cover no-repeat url("/static/bg1.jpg");
+    height: 400px;
+}
+#missionSection{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+.cards{
+    display: inline-block;
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 10px;
+    height: 209px;
+    margin: 23px 20px;
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.card-img img{
+    height: 160px;
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color: yellow;
+
+}
+#sponsorSection .sponsor{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.sponsorlogo img{
+    height: 80%;
+    margin: 21px;
+    margin-top: 45px;
+}
+.sponsorlogo{
+    height: 133px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}

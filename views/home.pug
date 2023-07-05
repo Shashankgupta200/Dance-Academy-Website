@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js")
+block style 
+    style
+        include ../static/style.css
+
+block content 
+    section#introSection 
+      | WELCOME TO THE CLUB 
+      p Eat Dance Sleep Repeat
+    section#missionSection 
+      h2 Our Mission
+      div.cards 
+        h3 This is a card
+        div.card-box 
+          div.card-img 
+            img(src="../static/1.png", alt="error")
+          div.card-content 
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, ut!
+      div.cards 
+        h3 This is a card
+        div.card-box
+          div.card-img 
+              img(src="../static/2.png", alt="error")
+          div.card-content 
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, ut!
+      div.cards 
+        h3 This is a card
+        div.card-box
+          div.card-img 
+              img(src="../static/0.png", alt="error")
+          div.card-content 
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, ut!
+    section#sponsorSection 
+      div.sponsor 
+        h3 Our Sponsors 
+      div.sponsorlogo 
+        img(src="../static/facebook.png", alt="Facebook logo")
+        img(src="../static/microsoft.png", alt="Microsoft logo")
+        img(src="../static/skype.png", alt="skype logo")
+        img(src="../static/spotify.png", alt="spotify logo")
